@@ -21,14 +21,15 @@ export default function ProductCard(props) {
           transform: 'scale(1.02)',
         }}
       >
-        <Image src={props.images[0]?.url} alt={props.name} />
+        <Image src={props.images[0].url} alt={props.name} />
         <Divider my="3" />
       </Box>
       <Text fontWeight="bold" textColor="purple" fontSize="lg">
         {props.name}
       </Text>
       <Text textColor="gray.700">
-        ${props.price / 100}
+        $
+        {props.price / 100}
       </Text>
     </Link>
   );
