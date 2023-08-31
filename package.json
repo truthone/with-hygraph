@@ -9,32 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.8.0",
-    "@emotion/react": "11",
-    "@emotion/styled": "11",
-    "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "eslint": "^8.48.0",
-    "eslint-config-next": "13.4.19",
-    "framer-motion": "4",
-    "graphql": "^16.8.0",
-    "graphql-request": "^6.1.0",
-    "next": "13.4.19",
+    "@chakra-ui/react": "2.4.2",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@stripe/stripe-js": "^1.46.0",
+    "framer-motion": "^8.0.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "react-icons": "^4.7.1",
+    "stripe": "^11.5.0"
   },
   "devDependencies": {
+    "@types/react": "18.2.21",
+    "eslint": "^8.48.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.33.2"
-  },
-  "rules": {
-    "import/prefer-default-export": [
-        "off",
-        { "target": "any" }
-    ]
-}
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "5.2.2"
+  }
 }
